@@ -2,12 +2,26 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Page One</h1>
-      <p>this is some information</p>
-      <a href="https://deeplinknext.vercel.app/other">
-        <button>go to another page...</button>
-      </a>
+    <div style={{ paddingLeft: 20 }}>
+      <p>List of upcoming Flight</p>
+      <div style={{ padding: 20 }}>
+        <h3>Flight One</h3>
+        <a href="https://deeplinknext.vercel.app/other">
+          <button style={{ background: '#007bff', padding: '6px 8px', color: 'white', borderRadius: 6, fontSize: 14 }}>Online Checkin Now</button>
+        </a>
+      </div>
+      <div style={{ padding: 20 }}>
+        <h3>Flight Two</h3>
+        <a href="https://deeplinknext.vercel.app/other">
+          <button style={{ background: '#007bff', padding: '6px 8px', color: 'white', borderRadius: 6, fontSize: 14 }}>Online Checkin Now</button>
+        </a>
+      </div>
+      <div style={{ padding: 20 }}>
+        <h3>Flight Three</h3>
+        <a href="https://deeplinknext.vercel.app/other">
+          <button style={{ background: '#007bff', padding: '6px 8px', color: 'white', borderRadius: 6, fontSize: 14 }}>Online Checkin Now</button>
+        </a>
+      </div>
     </div>
   )
 }
